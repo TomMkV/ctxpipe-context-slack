@@ -1,8 +1,0 @@
-version: 1
-source: github
-pullRequests:
-  repositories: []
-  states:
-    - merged
-  includeDrafts: false
-  maxPullRequestsPerRepository: 200
