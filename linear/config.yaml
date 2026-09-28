@@ -1,0 +1,43 @@
+version: 1
+source: linear
+workspace:
+  id: 59dca29b-5862-4ade-bd5e-78a7e57013d5
+  name: Ctxpipe
+scope:
+  teams:
+    - id: 080a5a17-fa66-45af-9009-35d46eed1fc9
+      name: Ctxpipe
+      key: CTX
+      teamId: 080a5a17-fa66-45af-9009-35d46eed1fc9
+      teamKey: CTX
+      url: https://linear.app/ctxpipe/team/CTX
+  projects:
+    - id: 29b1bae6-2c19-4e9f-b8b0-4a7a2bd28b3e
+      name: Product development
+      parentId: 080a5a17-fa66-45af-9009-35d46eed1fc9
+      teamId: 080a5a17-fa66-45af-9009-35d46eed1fc9
+      teamKey: CTX
+      url: https://linear.app/ctxpipe/project/product-development-d4b1b70cf640
+    - id: effac04a-cdfa-4e7c-98f3-8af1b34cd44d
+      name: Linear Test
+      parentId: 080a5a17-fa66-45af-9009-35d46eed1fc9
+      teamId: 080a5a17-fa66-45af-9009-35d46eed1fc9
+      teamKey: CTX
+      url: https://linear.app/ctxpipe/project/linear-test-8ceba1295fe1
+  documents:
+    - id: 282c9be9-91f3-434d-8a50-811ae26d8f05
+      name: Devoli
+      parentId: 29b1bae6-2c19-4e9f-b8b0-4a7a2bd28b3e
+      teamId: 080a5a17-fa66-45af-9009-35d46eed1fc9
+      teamKey: CTX
+      url: https://linear.app/ctxpipe/document/devoli-d745c400dae5
+    - id: 9e033431-63d3-4bb7-a6cf-6fae6c6bb23d
+      name: Fishserve
+      parentId: 29b1bae6-2c19-4e9f-b8b0-4a7a2bd28b3e
+      teamId: 080a5a17-fa66-45af-9009-35d46eed1fc9
+      teamKey: CTX
+      url: https://linear.app/ctxpipe/document/fishserve-800c21339e55
+  initiatives: []
+policy:
+  customerRequests: limited
+  githubLinks: references_only
